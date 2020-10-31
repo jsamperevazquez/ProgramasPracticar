@@ -45,7 +45,9 @@ public class Raices {
         else if (getDiscriminante()<0){
             System.out.println("El discriminante es menor a 0 y todos sabemos que una ecuanción de números negativos no se expresa en R");
         }
-        }
+        else System.out.println("La ecuación solo tiene una solución, y el resultado es: \nraiz1= " + raiz1 + "\n raiz2= "+ raiz2);
+
+    }
 
     // Creo el método para devolver el valor del discriminante el valor del discriminante
     public double getDiscriminante(){
