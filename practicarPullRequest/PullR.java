@@ -7,6 +7,6 @@ package practicarPullRequest;
  **/
 public class PullR {
     public static void main(String[] args) {
-        System.out.println("Esto es una práctica de pull Request");
+        System.out.println("Esto es una práctica de pull Request en común");
     }
 }
