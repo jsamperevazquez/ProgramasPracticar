@@ -1,4 +1,4 @@
-package ejemploJavaUtilDate;
+package ejemploJavaUtil.Date;
 
 import jdk.swing.interop.SwingInterOpUtils;
 
@@ -29,6 +29,8 @@ public class UtilDate {
         SimpleDateFormat df3= new SimpleDateFormat("'Fecha: 'yyyy.MM.dd G 'Hora' HH:mm:ss z"); // Cambio el texto que va entre ' ' y le pongo el texto que quiera.
         fechaStr=df3.format(fecha);
         System.out.println("fechaStr = " + fechaStr);
+
+
 
     }
 
