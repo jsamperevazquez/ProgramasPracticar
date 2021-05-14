@@ -21,5 +21,6 @@ public class Calendar {
         SimpleDateFormat formato = new SimpleDateFormat("dd-MM-yyyy");
         String fechaConFormato= formato.format(fecha);
         System.out.println("fechaConFormato   = " + fechaConFormato  );
+        System.out.println("Esto es una prueba");
     }
 }

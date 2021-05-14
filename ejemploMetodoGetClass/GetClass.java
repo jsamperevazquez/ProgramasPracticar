@@ -42,5 +42,6 @@ public class GetClass {
         for (Method metodos:objectClass.getMethods()){
             System.out.println("metodos.getName() = " + metodos.getName());
         }
+
     }
 }
